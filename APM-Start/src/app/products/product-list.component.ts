@@ -70,4 +70,9 @@ export class ProductListComponent implements OnInit{
         console.log('in OnInit');
     }
 
+    onRatingClicked(message: string):void
+    {
+        this.pageTitle='Product Lit: '+message;
+    }
+
 }
